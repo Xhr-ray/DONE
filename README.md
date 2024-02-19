@@ -17,14 +17,11 @@ Link: https://arxiv.org/pdf/2012.05625.pdf, https://ieeexplore.ieee.org/abstract
 - To generate non-idd MNIST Data: 
   - Access data/Mnist and run: "python3 generate_niid_32users.py"
   - We can change the number of user and number of labels for each user using 2 variable NUM_USERS = 32 and NUM_LABELS = 3
-
-- To generate non-iid Synthetic:
-  - Access data/Linear_synthetic and run: "python3 generate_niid_linear_32users_updated.py". Synthetic data is configurable with the number of users, the numbers of labels for each user, and the value of $\kappa$.
-
+  - 
 - The datasets also are available to download at: https://drive.google.com/drive/folders/1LkBjkP0PzfRNiAY9ImN85r9vBIuW4U6-?usp=sharing
 
 # Produce experiments and figures
-- There is a main file "main.py" which allows running all experiments, and 2 files: "plot_mnist.py", "plot_synthetic.py" to plot all results after runing all experiment.  Only run "plot_mnist.py" and "plot_synthetic.py" after getting the results from training process.
+- There is a main file  "plot.py" to plot all results after runing all experiment.  
 
 ## Performance comparison with different distributed algorithms (table 2 in our paper)
 - For MNIST:
