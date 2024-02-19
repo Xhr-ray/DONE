@@ -55,4 +55,4 @@ Link: https://arxiv.org/pdf/2012.05625.pdf, https://ieeexplore.ieee.org/abstract
       python3 main.py --dataset human_activity --model mclr --algorithm GD --batch_size 0 --learning_rate 0.1 --num_global_iters 100 --numedges 30
       python3 main.py --dataset human_activity --model mclr --algorithm GT --batch_size 0 --alpha 0.01 --L 1 --num_global_iters 100 --local_epochs 40 --numedges 30
     </code></pre>
-
+此项目转载自https://github.com/CharlieDinh/DONE
